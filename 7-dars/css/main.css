@@ -1,0 +1,91 @@
+
+@font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/poppins-v21-latin-500.woff2') format('woff2'); 
+  }
+  @font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/poppins-v21-latin-600.woff2') format('woff2'); 
+  }
+  @font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/poppins-v21-latin-700.woff2') format('woff2'); 
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-image: url("../images/body-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.form {
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 200px auto;
+}
+.form-input {
+  padding: 15px 10px 15px 32px;
+  border: 1px solid #DEDEDE;
+  border-radius: 5px;
+  outline: none;
+  outline-color: #5E54A4;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.25px; 
+}
+.form-btn {
+  padding: 15px;
+  background-color: #38CC8B;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: center;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.3s;
+}
+.form-btn:hover{
+  color: #38CC8B;
+  background-color: transparent;
+  border-color: #38CC8B;
+
+}
+.form-content {
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
+  color: #DEDEDE;
+}
+.form-content > a{
+  color: rgb(252, 85, 85);
+}
+
